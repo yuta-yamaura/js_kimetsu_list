@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>鬼滅の刃_キャラクター一覧</title>
+    <link rel="stylesheet" href="js_kimetsu_list.css">
+</head>
+<body>
+    <h1>鬼滅の刃 キャラクター一覧</h1>
+    <ul class="none">
+        <li>
+            <div class="d-flex">
+                <input type="radio" name="radio" id="all_member" checked>
+                <span>全キャラクター</span>
+            </div>
+        </li>
+        <li>
+            <div class="d-flex">
+                <input type="radio" name="radio" id="kisatsu_member">
+                <span>鬼殺隊</span>
+            </div>
+        </li>
+        <li>
+            <div class="d-flex">
+                <input type="radio" name="radio" id="hashira">
+                <span>柱</span>
+            </div>
+        </li>
+        <li>
+            <div class="d-flex">
+                <input type="radio" name="radio" id="demon">
+                <span>鬼</span>
+            </div>
+        </li>
+    </ul>
+    <div class="contents">
+        <div><span>名前</span></div>
+        <div>画像<img></div>
+        <div><span>カテゴリ</span></div>
+    </div>
+    <div id="data-list"></div>
+    <script src="js_kimetsu_list.js"></script>
+</body>
+</html>
